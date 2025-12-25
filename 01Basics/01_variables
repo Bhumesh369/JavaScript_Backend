@@ -1,0 +1,22 @@
+const accountId = 369369
+let accountEmail = "bhumesh@gmail.com"
+var accountPassword = "12345"
+let accountScope;
+/*
+Prefer not to use "var" in JS
+because of issue in block scope and functional scope
+If we define any variable and not assign the value then it will be undefined
+for ex. accountScope
+*/
+accountCity = "Pune"
+console.table([accountId, accountEmail, accountPassword, accountCity])
+// accountId = 2 ---> can't assign const variable again once declared (Global scope)
+accountEmail = "Kashu@gmail.com"
+accountPassword = "246810"
+accountCity = "Nagpur"
+console.log(accountId);
+console.log(accountEmail);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountScope])
+
+
+

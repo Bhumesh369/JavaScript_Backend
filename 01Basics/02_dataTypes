@@ -1,0 +1,22 @@
+"use strict"; // This will tell JS that trat all JS code as newer version
+//alert( 3+3) --> This will not work on node, it can work on browser as JS is using diffrenet engine in browser
+
+// https://tc39.es/ecma262/  ==> JS documentation website
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+let name = "Bhumesh"
+//number => range 2 to power 53
+// bigint => for large number of range
+// string => ""
+// Boolean => true/false
+// null => standalone value (Empty value/null 'Khali')
+// undefined => when value in not defined
+// symbol => unique
+
+console.log(typeof "Bhumesh");
+
+// object
+
+console.log(typeof undefined); //undefined
+console.log(typeof null); //object
