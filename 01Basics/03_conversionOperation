@@ -1,28 +1,70 @@
-let score = "bhumesh";
+// let score = "bhumesh";
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
-let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// let valueInNumber = Number(score);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 
-// "33"  => converion in 33
-// "33abc" => converion in NaN (Not a number)
-// true => 1; false => 0
+// // "33"  => converion in 33
+// // "33abc" => converion in NaN (Not a number)
+// // true => 1; false => 0
 
-let isLoggedIn = "bhumesh";
-let booleanIsLoggedIn = Boolean(isLoggedIn);
+// let isLoggedIn = "bhumesh";
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
 
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
 
-// 1 => true; 0 => false
-// "" => false
-// "bhumesh" => true
+// // 1 => true; 0 => false
+// // "" => false
+// // "bhumesh" => true
 
-let someNumber = 33;
-let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let someNumber = 33;
+// let stringNumber = String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// *************** Operations *************
+
+let value = 3;
+
+let negValue = -value;
+console.log(negValue);
+console.log(typeof negValue);
+console.log(typeof value);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+let str1 = "Hello"
+let str2 = " Bhumesh";
+let str3 = str1 + str2; 
+console.log(str3); // Hello Bhumesh
+console.log("1" +2); // 12
+console.log(1 +"2"); // 12
+console.log("1" +2 + 2); // 122
+console.log(1 +2 + "2"); // 32*
+console.log(+true); // 1
+console.log(+"") // 0
+
+
+// prefix increment and postfix increment
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
