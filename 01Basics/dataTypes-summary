@@ -1,0 +1,28 @@
+// premitive
+ // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+
+ /* JS is dynamically typed language */
+ const score = 100;
+ const scoreValue = 100.4;
+ const isLoggedIn = false;
+ const outsideTemp = null;
+ let userEmail; //undefined, we can assign it undefined as well
+ const id = Symbol('123');
+ const newId = Symbol('123');
+ console.log(id == newId);
+ //const bigNumber = 3456328847463628949422334n;
+ console.log(typeof bigNumber);
+ // Refernce (Non premitive)
+
+ // Array, Objects, Functions
+
+ const heroes = ["Shaktiman", "Nagraj", "Doga"];
+
+ let myObj = {
+    name: "Bhumesh",
+    age: 30
+ }
+
+ const myFunction = function(){
+    console.log("Hello Bhumesh")
+ }
