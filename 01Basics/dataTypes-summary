@@ -26,3 +26,28 @@
  const myFunction = function(){
     console.log("Hello Bhumesh")
  }
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+ /*
+Memory types - 
+ Stack memory and Heap Memory
+
+ Stack memory use for premitive data types
+ Heap memory use for non-premitive data types
+
+ */
+
+ let myYoutube = "bhumeshparatedotcom";
+ let anothername = myYoutube;
+ anothername = "Kashuparatedotcom"
+ console.log(anothername);
+ console.log(myYoutube);
+ let user1 = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+ }
+ let user2 = user1;
+
+ user2.email = "kashuparate@google.com";
+
+ console.log(user1.email); // O/P will be 2nd email after change
+ console.log(user2.email); // O/P will be 2nd email after change bcs it saves on heap memory.
