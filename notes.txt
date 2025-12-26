@@ -1,0 +1,7 @@
+Memory types - 
+ Stack memory and Heap Memory
+
+ Stack memory use for premitive data types
+ Heap memory use for non-premitive data types
+
+
