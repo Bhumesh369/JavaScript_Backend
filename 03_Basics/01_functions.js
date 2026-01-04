@@ -35,7 +35,7 @@ console.log(mulTwoNum(4,5));
 
 const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+ console.log("Result: ", result);
 
 
 function loginUserMessage(username = "sam"){
@@ -50,26 +50,34 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){ // Here val1 will be 200, val2 will be 400 and rest will be allocated to ...num1 which is rest operator here.
     return num1
 }
+function calCartPrice1(...num1){
+    return num1
+}
+function calCartPrice2(val1,val2,...num1){
+    return num1
+}
+console.log(calCartPrice1(200, 400, 500, 2000))
+console.log(calCartPrice2(200, 400, 500, 2000))
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
-    prices: 199
+    username: "Bhumesh",
+    price: 199
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`); // if there is change in the type of value then we will get undefined in the response of function
 }
 
 // handleObject(user)
-handleObject({
-    username: "sam",
-    price: 399
-})
+// handleObject({
+//     username: "sam",
+//     price: 399
+// })
+console.log(handleObject(user));
 
 const myNewArray = [200, 400, 100, 600]
 
